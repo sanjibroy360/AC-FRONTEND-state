@@ -1,5 +1,14 @@
-import React from 'react'
+import React from "react";
+import ReactDOM from "react-dom";
+import Body from "./components/Body";
+import Container from './components/Container.jsx'
 
-export default function App() {
-  return <h1>Hello Sidebar</h1>
+function App() {
+  return (
+    <>
+      <Container />
+    </>
+  )
 }
+
+export default App;

@@ -1,0 +1,63 @@
+*,*::before, *::after {
+    box-sizing: border-box;
+}
+
+.show_para {
+    height: auto;
+    padding: 18px;
+    border: 1px solid #ddd;
+    
+}
+
+.hide_para {
+    display: block;
+    width: 45%;
+    font-size: 0px;
+    height: 0px;
+}
+
+/* Button */
+
+.btn {
+    width: 45%;
+    background-color: rgb(253,216,140);
+    margin: 0px auto;
+    padding: 18px;
+    font-size: 25px;
+    border: 1.5px solid #777;
+}
+
+.flex {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.icon {
+    font-size: 25px;
+}
+
+.btn_wrapper {
+    width: 100%;
+    margin: 0px auto;
+}
+
+.change_color {
+    background-color: rgb(179,223,172);
+}
+
+.para {
+    width: 45%;
+    margin: 0px auto;
+    font-size: 18px;
+    line-height: 1.5;
+    overflow: hidden;
+    background-color: rgb(245,237,228);
+    transition:  0.1s;
+    margin-bottom: 25px;
+}
+
+li {
+    cursor: pointer;
+}
+
